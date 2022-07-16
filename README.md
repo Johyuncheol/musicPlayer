@@ -15,7 +15,7 @@
 
 <ul>
   <li>redux</li>
-  <li>jwpToken</li>
+  <li>json web Token</li>
 </ul>
  
 ![image](https://user-images.githubusercontent.com/51200912/179373680-6e93ce35-8980-4df3-b113-d02f4f711f55.png)
