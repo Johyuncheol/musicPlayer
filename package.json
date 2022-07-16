@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.4.2",
+    "npx": "^10.2.2"
+  }
+}

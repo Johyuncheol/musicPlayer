@@ -1,0 +1,164 @@
+.App{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main{
+  width:10%;
+  margin-right: 1%;
+  margin-left: 6%;
+  text-decoration: none;
+  font-size: 50px;
+  flex-grow: 1;
+}
+
+
+.menu{
+  width:10%;
+  display: flex;
+  margin-right: 1%;
+  text-decoration: none;
+  flex-grow:2;
+  text-align: right;
+  flex-direction: column;
+  color:#bbc1c6;
+}
+
+.header > li{
+  width:20%;
+  font-size: 20px;
+  max-height:20px;
+  margin-top: 25px;
+  margin-left: 1%;
+  border-radius: 30px 30px 30px 30px;
+  border-top: none;
+  border-bottom: none;
+  list-style:none;
+  flex-grow:1;
+}
+
+.header >li> input {
+  width:30%;
+  max-height:20px;
+  border-radius: 30px 30px 30px 30px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.contents{
+  display: flex;
+  flex-direction: column;
+}
+
+.chart{
+  position: relative;
+  margin-top: 5%;
+  border-radius: 30px 0px 0px 30px;
+  background-color: #444e62;
+  width: 93%;
+  height: 400px;
+  margin-left: auto;
+}
+
+.rank_topic{
+  color:#bbc1c6;
+  margin-left: 5%;
+  display: flex;
+}
+
+.chartContent{
+  color:white;
+  border-collapse: collapse;
+  margin:0px;
+}
+
+.album{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+
+}
+.item{
+  /* min-height: 200px; */
+  max-width: 50%;
+  /* flex-basis: 150px; */
+  flex-grow: 1;
+}
+
+.albumSection{
+  /* max-width: 80%; */
+  margin: 0 auto;
+}
+
+
+.flex-item{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: darksalmon;
+}
+
+.listMenu{
+  margin-left: 3%;
+}
+
+.next{
+  cursor:pointer;
+  float: right;
+}
+
+.prev{
+  cursor:pointer;
+  float: left;
+}
+
+.buttonContainer{
+  position:absolute;
+	top:50%;
+  width: 100%;
+}
+
+.name{
+  font-size: 10%;
+}
+
+.artist{
+  font-size: 10%;
+}
+
+.rankbutton{
+display: flex;
+justify-content: center;
+}
+
+
+@media (max-width:634px){
+  
+  .main{
+    width:10%;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-decoration: none;
+    font-size: 50px;
+    flex-grow: 1;
+  }
+
+  .menu{
+    flex-grow:0;
+  }
+  
+  .header > li{
+    margin-left: 10%;
+    flex-grow:1;
+  }
+
+  .header >li> input {
+    width:40%
+  }
+
+}

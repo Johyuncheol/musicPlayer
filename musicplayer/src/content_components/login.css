@@ -1,0 +1,19 @@
+.login_Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10%;
+}
+
+.object{
+    font-size : 30px; 
+    border-width: 0px 0px 2px 0px ;
+}
+
+
+@media (max-width:634px){
+    .object{
+        font-size :20px; 
+        border-width: 0px 0px 2px 0px ;
+    }
+}
