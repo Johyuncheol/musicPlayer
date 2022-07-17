@@ -57,7 +57,7 @@ app.post('/new' ,(req,res)=>{
   console.log(password)
 
 //schema/user로 옮김
-  // 6. Schema 생성. (혹시 스키마에 대한 개념이 없다면, 입력될 데이터의 타입이 정의된 DB 설계도 라고 생각하면 됩니다.)
+  // 6. Schema 생성.
   // var user = mongoose.Schema({
   // id : 'string',
   // password : 'string',
@@ -68,7 +68,7 @@ app.post('/new' ,(req,res)=>{
 
 
 
-  // 8. Student 객체를 new 로 생성해서 값을 입력
+  // 8. User 객체를 new 로 생성해서 값을 입력
   var newUser = new User(req.body);
 
     
